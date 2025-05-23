@@ -1,9 +1,8 @@
 [project]
-name = "An implementation of [spawner1145/TeaCache4Lumina2](https://github.com/spawner1145/TeaCache/blob/main/TeaCache4Lumina2/teacache_lumina2.py) for ComfyUI"
-description = "Nodes:FE_TeaCache_Lumina2"
-version = "1.0.1"
+name = "ComfyUI-Lumina2-TeaCache"
+description = "An implementation of [spawner1145/TeaCache4Lumina2](https://github.com/spawner1145/TeaCache/blob/main/TeaCache4Lumina2/teacache_lumina2.py) for ComfyUI"
+version = "1.0.0"
 license = {file = "LICENSE"}
-dependencies = ["pycryptodome", "sseclient-py"]
 
 [project.urls]
 Repository = "https://github.com/fexli/ComfyUI-Lumina2-TeaCache"
