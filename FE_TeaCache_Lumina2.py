@@ -17,7 +17,6 @@ def teacache_forward_working(
             "cache": transformer_options.get("cache"),
             "uncond_seq_len": transformer_options.get("uncond_seq_len")
         }
-    print("STEP", self.teacache_state)
     # 初始化TeaCache相关参数
     cap_feats = context
     cap_mask = attention_mask
